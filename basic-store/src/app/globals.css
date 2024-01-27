@@ -1,0 +1,23 @@
+
+:root{
+  width: 94%;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #1A1818;
+  color:#eee;
+}
+.products-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+  
+}
+.product {
+  border: 1px dashed #ccc;
+  padding: 10px;
+}
+a{
+  color:#eee;
+  margin: 2px;
+}

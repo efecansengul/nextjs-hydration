@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    font-weight:lighter;
+    align-items: center;
+    font-weight: lighter;
+    justify-content: space-around;
+    
+}
+.container > a {
+    color: #eee;
+    font-weight: 800;
+}
